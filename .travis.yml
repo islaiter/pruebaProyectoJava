@@ -1,0 +1,24 @@
+# Encontramos la documentacion oficial de JAVA para TravisCI
+# https://docs.travis-ci.com/user/languages/java/
+
+# Usaremos Ubuntu 18.04, podemos encontrar el resto de opciones en:
+# https://docs.travis-ci.com/user/reference/overview/#linux
+dist: xenial
+
+language: java
+
+jdk:
+ - openjdk8
+ - openjdk9
+ - openjdk10 
+ - openjdk11
+ - oraclejdk9
+ 
+script: 
+  - mvn install
+  - mvn test
+
+# Añadimos soporte a CodeCov para que analice el codigo si lo tenemos configurado. Analizador de codigo conocido
+# si funciona, se envia, pero lo tenemos comentado ya que haremos un test mas sencillo aun de momento
+#after_success:
+#  - bash <(curl -s https://codecov.io/bash)
