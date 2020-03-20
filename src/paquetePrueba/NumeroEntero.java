@@ -1,7 +1,7 @@
 package paquetePrueba;
 public class NumeroEntero {
 
-	/* Dejamos todo preparado por si queremos añadir soporte para numeros decimales
+	/* Dejamos todo preparado por si queremos aÃ±adir soporte para numeros decimales
 	 pero como es una clase simple de prueba, implementamos numeros enteros simples */
 	
 	public Integer parteEntera;
@@ -64,6 +64,8 @@ public class NumeroEntero {
 			else
 				return false;
 	}
-
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
 }
 
