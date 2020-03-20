@@ -16,7 +16,7 @@ jdk:
 
 script: 
   - ant build
-  - mvnw clean install
+  - ./mvnw clean install
   - java TestNumeroEntero.class
 
 
