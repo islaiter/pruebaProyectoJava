@@ -16,7 +16,7 @@ jdk:
 
 script: 
   - ant build
-  #- java TestNumeroEntero.class
+  - java TestNumeroEntero.class
 
 
 # Añadimos soporte a CodeCov para que analice el codigo si lo tenemos configurado. Analizador de codigo conocido
