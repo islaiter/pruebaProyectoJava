@@ -14,12 +14,9 @@ jdk:
  - openjdk11
  - oraclejdk9
  
-before_install:
-  - cd java
-
 script: 
   - ant build
- # - ant test
+  - ant test
 
 # Añadimos soporte a CodeCov para que analice el codigo si lo tenemos configurado. Analizador de codigo conocido
 # si funciona, se envia, pero lo tenemos comentado ya que haremos un test mas sencillo aun de momento
