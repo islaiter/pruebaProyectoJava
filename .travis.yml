@@ -15,6 +15,7 @@ jdk:
  - oraclejdk9
 
 script: ant build
+script: javac TestNumeroEntero.class
 
 # Añadimos soporte a CodeCov para que analice el codigo si lo tenemos configurado. Analizador de codigo conocido
 # si funciona, se envia, pero lo tenemos comentado ya que haremos un test mas sencillo aun de momento
