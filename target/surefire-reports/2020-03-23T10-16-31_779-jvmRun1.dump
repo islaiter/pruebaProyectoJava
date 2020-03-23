@@ -1,0 +1,51 @@
+# Created at 2020-03-23T10:16:33.246
+org.apache.maven.surefire.util.SurefireReflectionException: java.lang.BootstrapMethodError: java.lang.IllegalAccessError: no such method: org.junit.platform.launcher.TagFilter.includeTags(List)PostDiscoveryFilter/invokeStatic
+	at org.apache.maven.surefire.util.ReflectionUtils.instantiateOneArg(ReflectionUtils.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.createProviderInCurrentClassloader(ForkedBooter.java:403)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.BootstrapMethodError: java.lang.IllegalAccessError: no such method: org.junit.platform.launcher.TagFilter.includeTags(List)PostDiscoveryFilter/invokeStatic
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.newFilters(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.<init>(JUnitPlatformProvider.java:93)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.<init>(JUnitPlatformProvider.java:86)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.instantiateOneArg(ReflectionUtils.java:135)
+	... 5 more
+Caused by: java.lang.IllegalAccessError: no such method: org.junit.platform.launcher.TagFilter.includeTags(List)PostDiscoveryFilter/invokeStatic
+	at java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Unknown Source)
+	... 13 more
+Caused by: java.lang.NoClassDefFoundError: org/junit/platform/commons/PreconditionViolationException
+	at java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+	at java.lang.invoke.MemberName$Factory.resolve(Unknown Source)
+	at java.lang.invoke.MemberName$Factory.resolveOrFail(Unknown Source)
+	at java.lang.invoke.MethodHandles$Lookup.resolveOrFail(Unknown Source)
+	at java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(Unknown Source)
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: org.junit.platform.commons.PreconditionViolationException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 19 more
+
+
+# Created at 2020-03-23T10:16:33.263
+System.exit() or native command error interrupted process checker.
+java.lang.IllegalStateException: error [STOPPED] to read process 5080
+	at org.apache.maven.surefire.booter.PpidChecker.checkProcessInfo(PpidChecker.java:145)
+	at org.apache.maven.surefire.booter.PpidChecker.isProcessAlive(PpidChecker.java:116)
+	at org.apache.maven.surefire.booter.ForkedBooter$2.run(ForkedBooter.java:214)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
