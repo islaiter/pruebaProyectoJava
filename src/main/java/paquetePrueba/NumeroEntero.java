@@ -1,7 +1,7 @@
 package paquetePrueba;
 public class NumeroEntero {
 
-	/* Dejamos todo preparado por si queremos añadir soporte para numeros decimales
+	/* Dejamos todo preparado por si queremos aÃ±adir soporte para numeros decimales
 	 pero como es una clase simple de prueba, implementamos numeros enteros simples */
 	
 	public Integer parteEntera;
@@ -49,7 +49,7 @@ public class NumeroEntero {
 	public NumeroEntero dividirNumerosEnteros (NumeroEntero entero1, NumeroEntero entero2){
 		NumeroEntero result = new NumeroEntero();
 		if (entero1.getParteEntera()==0 || entero2.getParteEntera()==0){
-			System.out.println("No se puede dividir por 0");
+                System.out.println("No se puede dividir por 0");
 		} else {
 		result.setParteEntera(entero1.getParteEntera()/entero2.getParteEntera());	
 		}
