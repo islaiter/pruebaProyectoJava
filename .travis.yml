@@ -12,7 +12,7 @@ jdk:
  - openjdk9
  - openjdk10 
  - openjdk11
- - oraclejdk9
+
  
 script: 
   - mvn install
