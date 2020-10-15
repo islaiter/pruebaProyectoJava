@@ -15,8 +15,8 @@ jdk:
  - oraclejdk9
  
 script: 
-  - ant build
-  - test/TestNumeroEntero.java
+  - mvn clean install
+  - mvn clean test test/TestNumeroEntero.java
 
 # Añadimos soporte a CodeCov para que analice el codigo si lo tenemos configurado. Analizador de codigo conocido
 # si funciona, se envia, pero lo tenemos comentado ya que haremos un test mas sencillo aun de momento
