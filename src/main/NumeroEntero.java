@@ -5,7 +5,9 @@ public class NumeroEntero {
 	 pero como es una clase simple de prueba, implementamos numeros enteros simples */
 	
 	public Integer parteEntera;
-	// comentario
+	
+	// comentario trigger Jenkins
+	
 	// Constructor vacio
 
 	public NumeroEntero(){
