@@ -1,11 +1,11 @@
 package paquetePrueba;
 public class NumeroEntero {
 
-	/* Dejamos todo preparado por si queremos añadir soporte para numeros decimales
+	/* Dejamos todo preparado por si queremos aÃ±adir soporte para numeros decimales
 	 pero como es una clase simple de prueba, implementamos numeros enteros simples */
 	
 	public Integer parteEntera;
-	
+	// comentario
 	// Constructor vacio
 
 	public NumeroEntero(){
