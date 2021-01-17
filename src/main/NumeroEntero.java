@@ -4,9 +4,7 @@ public class NumeroEntero {
 	/* Dejamos todo preparado por si queremos añadir soporte para numeros decimales
 	 pero como es una clase simple de prueba, implementamos numeros enteros simples */
 	
-	// comentario
-	
-	// Probando webhook smee.io
+	// Prueba 2 smee.io
 	
 	public Integer parteEntera;
 	
