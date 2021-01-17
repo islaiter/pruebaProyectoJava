@@ -77,6 +77,12 @@ public class NumeroEntero {
 			else
 				return false;
 	}
-
+	
+	
+	// Metodo de prueba para test ngrok:
+	
+	public static void pruebaNgrok(){
+		System.out.println("Probando ngrok");
+	}
 }
 
