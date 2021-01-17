@@ -8,6 +8,8 @@ public class NumeroEntero {
 	// Prueba smee.io 200 OK 17/01/2021 21.02 GMT+1
 	// Otra prueba
 	
+	// Prueba ngrok2
+	
 	
 	
 	public Integer parteEntera;
