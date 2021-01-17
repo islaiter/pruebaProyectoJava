@@ -8,13 +8,14 @@ public class NumeroEntero {
 	// Prueba smee.io 200 OK 17/01/2021 21.02 GMT+1
 	
 	
+	
 	public Integer parteEntera;
 	
 	// Constructor vacio
 
-	public NumeroEntero(){
+	/*public NumeroEntero(){
 
-	}
+	} */
 	
 	// Constructor por parametros, si tuviese parte decimal tendriamos que incluirlo
 
