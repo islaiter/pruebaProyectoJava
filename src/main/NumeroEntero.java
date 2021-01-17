@@ -6,7 +6,7 @@ public class NumeroEntero {
 	
 	public Integer parteEntera;
 	
-	// comentario trigger Jenkins
+	// Probando con ngrok
 	
 	// Constructor vacio
 
