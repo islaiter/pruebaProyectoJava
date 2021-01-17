@@ -6,6 +6,7 @@ public class NumeroEntero {
 	
 	// Prueba smee.io
 	// Prueba smee.io 200 OK 17/01/2021 21.02 GMT+1
+	// Otra prueba
 	
 	
 	
@@ -13,9 +14,9 @@ public class NumeroEntero {
 	
 	// Constructor vacio
 
-	/*public NumeroEntero(){
+	public NumeroEntero(){
 
-	} */
+	} 
 	
 	// Constructor por parametros, si tuviese parte decimal tendriamos que incluirlo
 
