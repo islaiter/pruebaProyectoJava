@@ -6,6 +6,7 @@ public class NumeroEntero {
 	
 	// Prueba 2 smee.io
 	// Prueba 3 smee.io
+	// Prueba 4 smee.io
 	
 	public Integer parteEntera;
 	
