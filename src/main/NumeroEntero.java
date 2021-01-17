@@ -5,6 +5,7 @@ public class NumeroEntero {
 	 pero como es una clase simple de prueba, implementamos numeros enteros simples */
 	
 	// Prueba 2 smee.io
+	// Prueba 3 smee.io
 	
 	public Integer parteEntera;
 	
